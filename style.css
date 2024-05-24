@@ -1,0 +1,191 @@
+/* .nav-item a.nav-link {
+  color: white;
+} */
+#carouselExampleInterval .carousel-item img {
+  height: 30vw;
+  /* Sesuaikan dengan tinggi yang Anda inginkan */
+  object-fit: cover;
+  /* Pastikan gambar tetap proporsional */
+}
+
+body {
+  background-color: black;
+}
+
+.cards {
+  margin-top: 50px;
+  height: 30%;
+}
+
+/* Buat ukuran teks responsif menggunakan viewport width */
+.container h1 {
+  font-size: 6vw;
+  letter-spacing: 0.1vw;
+  /* Ini membuat teks mengambil 10% dari lebar viewport */
+  color: aliceblue;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5vw;
+}
+
+.container h2 {
+  font-size: 2.5vw;
+  /* Ini membuat teks mengambil 5% dari lebar viewport */
+  letter-spacing: 0.4vw;
+  /* Menambahkan spasi antar huruf */
+  color: rgb(185, 32, 32);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 1.5vw;
+}
+
+.nav-link,
+button .btn {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.2vw;
+  font-size: 1.2vw;
+}
+
+.container .social-icons {
+  color: rgba(240, 248, 255, 0.788);
+  margin-right: 2vw;
+  margin-left: 1.8vw;
+}
+
+.container button {
+  margin-top: 1.5vw;
+  margin-right: 1vw;
+  border-radius: 0;
+  margin-left: 1.8vw;
+}
+
+/* Untuk mengatur tinggi gambar agar tetap proporsional */
+.thumbnail-img {
+  height: auto;
+  width: 100%;
+}
+
+.thumbnail-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail-container:hover .thumbnail-overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 18px;
+}
+
+/* Style untuk judul dan viewers */
+.video-title {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.viewers {
+  color: white;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.profil h3 {
+  padding-top: 4vw;
+  padding-bottom: 1vw;
+  font-size: 3vw;
+  color: brown;
+  font-family: Bebas Neue;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+p {
+  font-size: 1.5vw;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+/********************************************* Mobile ************************************************/
+@media (max-width: 768px) {
+  nav.navbar .collapse .navbar-nav li.nav-item a.nav-link{
+    font-size: medium;
+    
+  }
+
+  div.container {
+    h1.fw-reguler{
+      font-size: 1.98rem;
+    }
+
+    h2.fw-semibold{
+      font-size: .8rem;
+    }
+  }
+
+
+  div.profil{
+    div.col-md-6{
+      h3{
+        font-size: 1.6rem;
+      }
+
+      p{
+        font-size: .728rem;
+      }
+    }
+  }
+
+  figure {
+    blockquote.blockquote {
+      p{
+        font-size: .8rem;
+      }
+    }
+
+    figcaption.blockquote-footer{
+      font-size: .98rem;
+    }
+  }
+
+
+  footer{
+    .footer-desc div.container {
+      div.col-md-3 p {
+        font-size:.74rem;
+      }
+
+      div.mb-4 p a,div.contact p {
+        font-size: .8rem;
+      }
+
+
+    }
+  }
+  
+}
