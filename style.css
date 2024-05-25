@@ -133,59 +133,47 @@ p {
 
 /********************************************* Mobile ************************************************/
 @media (max-width: 768px) {
-  nav.navbar .collapse .navbar-nav li.nav-item a.nav-link{
+  nav.navbar .collapse .navbar-nav li.nav-item a.nav-link {
     font-size: medium;
-    
   }
 
-  div.container {
-    h1.fw-reguler{
-      font-size: 1.98rem;
-    }
-
-    h2.fw-semibold{
-      font-size: .8rem;
-    }
+  div.container h1.fw-reguler {
+    font-size: 2rem;
   }
 
-
-  div.profil{
-    div.col-md-6{
-      h3{
-        font-size: 1.6rem;
-      }
-
-      p{
-        font-size: .728rem;
-      }
-    }
+  div.container h2.fw-semibold {
+    font-size: 1rem;
   }
 
-  figure {
-    blockquote.blockquote {
-      p{
-        font-size: .8rem;
-      }
-    }
-
-    figcaption.blockquote-footer{
-      font-size: .98rem;
-    }
+  div.profil div.col-md-6 h3 {
+    font-size: 1.8rem;
   }
 
-
-  footer{
-    .footer-desc div.container {
-      div.col-md-3 p {
-        font-size:.74rem;
-      }
-
-      div.mb-4 p a,div.contact p {
-        font-size: .8rem;
-      }
-
-
-    }
+  div.profil div.col-md-6 p {
+    font-size: 0.8rem;
   }
-  
+
+  #carouselExampleInterval .carousel-item img {
+    height: 60vw;
+    /* Sesuaikan dengan tinggi yang Anda inginkan */
+    object-fit: cover;
+    /* Pastikan gambar tetap proporsional */
+  }
+
+  figure blockquote.blockquote p {
+    font-size: 0.8rem;
+  }
+
+  figure figcaption.blockquote-footer {
+    font-size: 0.98rem;
+  }
+
+  footer .footer-desc div.container div.col-md-3 p {
+    font-size: 0.8rem;
+  }
+
+  footer .footer-desc div.container div.mb-4 p a,
+  footer .footer-desc div.container div.contact p {
+    font-size: 0.8rem;
+  }
 }
