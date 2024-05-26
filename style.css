@@ -18,7 +18,7 @@ body {
 }
 
 /* Buat ukuran teks responsif menggunakan viewport width */
-.container h1 {
+.container h1, .gallery-image div h1.fw-bold {
   font-size: 6vw;
   letter-spacing: 0.1vw;
   /* Ini membuat teks mengambil 10% dari lebar viewport */
