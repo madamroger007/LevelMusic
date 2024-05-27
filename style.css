@@ -18,7 +18,8 @@ body {
 }
 
 /* Buat ukuran teks responsif menggunakan viewport width */
-.container h1, .gallery-image div h1.fw-bold {
+.container h1,
+.gallery-image div h1.fw-bold {
   font-size: 6vw;
   letter-spacing: 0.1vw;
   /* Ini membuat teks mengambil 10% dari lebar viewport */
@@ -120,6 +121,11 @@ button .btn {
   font-family: Bebas Neue;
   text-align: center;
   margin-top: 3vw;
+}
+
+.profil img {
+  padding-top: 4vw;
+  padding-bottom: 1vw;
 }
 
 p {
