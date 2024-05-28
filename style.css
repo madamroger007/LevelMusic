@@ -128,7 +128,16 @@ button .btn {
   padding-bottom: 1vw;
 }
 
-p {
+.profil p {
+  font-size: 1.5vw;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.blockquote p {
   font-size: 1.5vw;
   color: aliceblue;
   font-family: "Courier New", Courier, monospace;
@@ -183,3 +192,4 @@ p {
     font-size: 0.8rem;
   }
 }
+/* testimoni */
