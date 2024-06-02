@@ -24,7 +24,7 @@ body {
   font-size: 6vw;
   letter-spacing: 0.1vw;
   /* Ini membuat teks mengambil 10% dari lebar viewport */
-  color: aliceblue;
+  color: rgb(13, 13, 14);
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -146,7 +146,14 @@ button .btn {
   margin-left: 3vw;
   margin-right: 3vw;
 }
-
+div.container h1.fw-reguler {
+  font-size: 3rem;
+  color: white;
+}
+#playlist_section .container .rekaman{
+ font-size: 3rem;
+ color: white;
+  }
 /********************************************* Mobile ************************************************/
 @media (max-width: 768px) {
   nav.navbar .collapse .navbar-nav li.nav-item a.nav-link {
@@ -155,6 +162,7 @@ button .btn {
 
   div.container h1.fw-reguler {
     font-size: 2rem;
+ 
   }
 
   div.container h2.fw-semibold {
@@ -169,6 +177,7 @@ button .btn {
     font-size: 0.8rem;
   }
 
+  
   #carouselExampleInterval .carousel-item img {
     height: 60vw;
     /* Sesuaikan dengan tinggi yang Anda inginkan */
@@ -241,7 +250,7 @@ button .btn {
 
   .card {
     background: rgba(20, 0, 0, 0.5);
-    box-shadow: 0 8px 18px -7px #c9dff0;
+    box-shadow: 0 8px 18px -7px #d32c2c;
     margin: 0 20px;
     padding: 0 10px;
     border-radius: 20px;
@@ -251,7 +260,7 @@ button .btn {
       max-width: 100px;
       border-radius: 50%;
       margin: 15px auto 0;
-      box-shadow: 0 3px 10px -1px #95abbb;
+      box-shadow: 0 3px 10px -1px #e07676;
       width: 100px;
       height: 100px;
     }
@@ -311,3 +320,4 @@ button .btn {
     outline: 0;
   }
 }
+
