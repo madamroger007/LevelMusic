@@ -21,7 +21,7 @@ body {
 .container h1,
 .gallery-image div h1.fw-bold,
 .gtco-testimonials h1 {
-  font-size: 6vw;
+  font-size: 8vw;
   letter-spacing: 0.1vw;
   /* Ini membuat teks mengambil 10% dari lebar viewport */
   color: rgb(13, 13, 14);
@@ -150,10 +150,10 @@ div.container h1.fw-reguler {
   font-size: 3rem;
   color: white;
 }
-#playlist_section .container .rekaman{
- font-size: 3rem;
- color: white;
-  }
+#playlist_section .container .rekaman {
+  font-size: 3rem;
+  color: white;
+}
 /********************************************* Mobile ************************************************/
 @media (max-width: 768px) {
   nav.navbar .collapse .navbar-nav li.nav-item a.nav-link {
@@ -162,7 +162,6 @@ div.container h1.fw-reguler {
 
   div.container h1.fw-reguler {
     font-size: 2rem;
- 
   }
 
   div.container h2.fw-semibold {
@@ -177,7 +176,6 @@ div.container h1.fw-reguler {
     font-size: 0.8rem;
   }
 
-  
   #carouselExampleInterval .carousel-item img {
     height: 60vw;
     /* Sesuaikan dengan tinggi yang Anda inginkan */
@@ -280,7 +278,6 @@ div.container h1.fw-reguler {
       font-size: 18px;
       color: #b1a7a7;
       padding-bottom: 15px;
-      
     }
   }
 
@@ -320,4 +317,3 @@ div.container h1.fw-reguler {
     outline: 0;
   }
 }
-
