@@ -38,7 +38,7 @@ body {
   /* Ini membuat teks mengambil 5% dari lebar viewport */
   letter-spacing: 0.4vw;
   /* Menambahkan spasi antar huruf */
-  color: rgb(185, 32, 32);
+  color:red;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -118,7 +118,7 @@ button .btn {
   padding-top: 4vw;
   padding-bottom: 1vw;
   font-size: 3vw;
-  color: brown;
+  color:red;
   font-family: Bebas Neue;
   text-align: center;
   margin-top: 3vw;
